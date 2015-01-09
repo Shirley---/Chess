@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="piece.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textdisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trashbin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="window-v2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="piece.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rook.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pawn.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bishop.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="knight.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="king.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="human.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDisplay.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="computer.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trashbin.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="level1AI.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="level2AI.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="level3AI.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window-v2.cc">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="queen.cc">
+      <Filter>Resource Files</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

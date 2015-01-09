@@ -1,0 +1,42 @@
+﻿Build started 2013-12-01 11:58:24 PM.
+     1>Project "C:\Users\Shirley Du\Documents\Waterloo\Fall 2013\CS 246\a5\chess\chess\chess.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Board.cc TextDisplay.cc bishop.cc computer.cc human.cc king.cc knight.cc level1AI.cc level2AI.cc level3AI.cc main.cc pawn.cc piece.cc player.cc rook.cc "window-v2.cc"
+         window-v2.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.cc(1): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         rook.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         player.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         piece.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         pawn.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         main.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         level3AI.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         level2AI.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         level1AI.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         knight.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         king.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         human.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         computer.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         bishop.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         TextDisplay.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         Board.cc
+     1>c:\users\shirley du\documents\waterloo\fall 2013\cs 246\a5\chess\chess\window-v2.h(3): fatal error C1083: Cannot open include file: 'X11/Xlib.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Shirley Du\Documents\Waterloo\Fall 2013\CS 246\a5\chess\chess\chess.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:09.79
